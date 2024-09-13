@@ -50,14 +50,14 @@ To set up and run the visualizer, follow these steps:
     ```bash
     python launch_game.py --path=<path-to-7z-file> --event=<event-in-game>
     # Example:
-    python launch_game.py --path=data/2016.NBA.Raw.SportVU.Game.Logs/01.01.2016.NYK.at.CHI.7z --event=1  
+    python launch_game.py --path=../data/2016.NBA.Raw.SportVU.Game.Logs/01.01.2016.NYK.at.CHI.7z --event=1  
     ```
 
 4. **Run the team defense visualization**:
     ```bash
     python team_spacing.py --path=<path-to-7z-file> --team=<home-or-away>
     # Example:
-    python team_spacing.py --path=data/2016.NBA.Raw.SportVU.Game.Logs/01.02.2016.PHI.at.LAC.7z --team=home
+    python team_spacing.py --path=../data/2016.NBA.Raw.SportVU.Game.Logs/01.02.2016.PHI.at.LAC.7z --team=home
     ```
 
 ## Usage
